@@ -8,7 +8,7 @@ st.set_page_config(
     layout="centered"
 )
 
-# CSS umum (untuk semua halaman)
+# Gaya CSS global
 st.markdown("""
 <style>
     .stApp {
@@ -19,7 +19,7 @@ st.markdown("""
     }
 
     .css-1d391kg, .css-1v3fvcr {
-        background-color: #ffffffcc !important;
+        background-color: #ffffffaa !important;
         border-radius: 10px;
         padding: 20px;
         box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
@@ -105,7 +105,7 @@ if menu == "🌎Halaman Utama":
     st.markdown("""
     <style>
     .stApp {
-        background-image: url('https://i.imgur.com/1ZQZ1ZP.jpg');
+        background-image: url('https://i.imgur.com/XGm7SnN.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
