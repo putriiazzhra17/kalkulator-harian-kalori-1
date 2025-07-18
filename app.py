@@ -8,11 +8,10 @@ st.set_page_config(
     layout="centered"
 )
 
-# Gaya CSS baru
+# CSS umum (untuk semua halaman)
 st.markdown("""
 <style>
     .stApp {
-        background: linear-gradient(135deg, #d2f8f8, #e2f0cb);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: #2d3436;
         font-size: 18px;
@@ -20,7 +19,7 @@ st.markdown("""
     }
 
     .css-1d391kg, .css-1v3fvcr {
-        background-color: #ffffffaa !important;
+        background-color: #ffffffcc !important;
         border-radius: 10px;
         padding: 20px;
         box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
@@ -103,6 +102,18 @@ menu = st.sidebar.selectbox("Navigasi", [
 
 # Halaman Utama
 if menu == "🌎Halaman Utama":
+    st.markdown("""
+    <style>
+    .stApp {
+        background-image: url('https://i.imgur.com/1ZQZ1ZP.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
     st.warning('Tekan tombol panah di pojok kiri atas untuk melihat fitur')
     st.title("🍱Calorie Counting - Aplikasi Giziku")
     st.markdown("""
