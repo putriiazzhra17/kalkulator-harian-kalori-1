@@ -63,7 +63,7 @@ st.markdown("""
 """, unsafe_allow_html=True) 
  # Navigasi 
 menu = st.sidebar.selectbox("Navigasi", [ 
-    "🌎Halaman Utama", "😊Perkenalan Kelompok", "🔢🧮Kalkulator Kalori","💡
+    "🌎Halaman Utama", "🔢🧮Kalkulator Kalori","💡
 Tentang"
 ]) 
  # Halaman Utama 
@@ -73,8 +73,7 @@ if menu == "🌎Halaman Utama":
     <style> 
     .stApp { 
         background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), 
-                    url('https://img.freepik.com/free-photo/person-paying-using-nfc
-technology_23-2149893740.jpg'); 
+                    url('https://pin.it/6USKODXZj'); 
         background-size: cover; 
         background-position: center; 
         background-repeat: no-repeat; 
@@ -83,28 +82,17 @@ technology_23-2149893740.jpg');
     </style> 
     """, unsafe_allow_html=True) 
  
-    st.title("🍱Calorie Counting - Aplikasi Gizi Sehatmu") 
+    st.title("🍱Calorie Counting - Aplikasi Giziku") 
     st.markdown(""" 
     Selamat datang di **kalkulator kalori harian**, Tujuan aplikasi sederhana untuk 
 membantu kamu: 
  
     -🔢Menghitung kebutuhan kalori harian   
-    -🍽️Mendapatkan rekomendasi menu 4 Sehat 5 Sempurna    
+    -🍽️Mendapatkan rekomendasi menu 4 Sehat 5 Sempurna 
+    -💡Informasi tentang  Total Daily Energy Expenditure Gizi Seimbang 
 Silakan gunakan menu di sebelah kiri untuk mulai🙋‍♀️🙋‍♂️      
     """) 
-# Halaman Perkenalan 
-elif menu == "😊Perkenalan Kelompok": 
-    st.header("KELOMPOK 9 (1B-Analisis Kimia)") 
-    st.markdown("""  
-Kelompok 9 merupakan tim mahasiswa Program Studi Analisis Kimia yang berkolaborasi dalam pengembangan aplikasi ini,
-beserta dosen mengarahkan dalam pengembangan project ini. Berikut adalah anggota tim dengan NIM : 
-
-1. Anindya Nadra Irtiza (NIM: 2460325)   
-2. Haikal Hirra Habibillah (NIM: 2460382)   
-3. Muhamad Rakha Aqila A. P I (NIM: 2460427)   
-4. Putri Azzahra Ramadhani (NIM: 2460482)   
-5. Yesi Arnesta Laguna Br Ginting (NIM: 2460538) 
-""") 
+ 
 # Halaman Kalkulator Kalori 
 elif menu == "🔢Kalkulator Kalori": 
     st.title("🔢Kalkulator Kebutuhan Kalori Harian") 
@@ -156,5 +144,5 @@ serta untuk mengetahui Total Daily Energy Expenditure (TDEE) dengan mengoprasika
 -🍱**Rekomendasi Menu 4 Sehat 5 Sempurna**
 -💡**Informasi tentang  Total Daily Energy Expenditure Gizi Seimbang** 
  
-Kami harap aplikasi ini bisa membantu kamu dalam mengetahui tentang kalori harian kamu sehari-hari! 🤗💪       
+Kami harap aplikasi ini bisa membantu kamu dalam mengetahui tentang kalori harian kamu sehari-hari, eat smart yaa!! 🤗💪       
 """) 
