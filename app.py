@@ -141,6 +141,8 @@ if menu == "🌎Halaman Utama":
     - 🔢 Menghitung kebutuhan kalori harian  
     - 🍽️ Mendapatkan rekomendasi menu 4 Sehat 5 Sempurna  
     - 💡 Informasi tentang Total Daily Energy Expenditure (TDEE) dan gizi seimbang
+
+    
     Kalori adalah satuan energi yang terkandung dalam makanan dan minuman, yang dibutuhkan 
     tubuh untuk berfungsi dengan baik dan melakukan aktivitas sehari-hari. 
     Setiap makanan dan minuman mengandung jumlah kalori yang berbeda-beda, 
