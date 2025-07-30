@@ -155,7 +155,8 @@ if menu == "🌎Halaman Utama":
     adalah kebutuhan kalori harian yang dihitung berdasarkan rumus Mifflin-St Jeor (1990).
     
     Rumus BMR untuk laki-laki : 10 x berat badan (kg) + 6,25 x tinggi badan (cm)-5 x usia (tahun) + 5
-              untuk perempuan : 10 x berat badan (kg) + 6,25 x tinggi badan (cm)-5 x usia (tahun) - 161
+    
+            untuk perempuan : 10 x berat badan (kg) + 6,25 x tinggi badan (cm)-5 x usia (tahun) - 161
               
      Total Daily Energy Expenditure (TDEE), atau total pengeluaran energi harian, adalah jumlah total 
      kalori yang dibutuhkan tubuh untuk melakukan aktivitas sehari-hari, termasuk fungsi dasar 
