@@ -163,7 +163,9 @@ if menu == "🌎Halaman Utama":
      dari aktivitas fisik, baik olahraga maupun non-olahraga. 
      
      TDEE akan diketahui dengan menggunakan rumus = BMR X PAL (Physical Activity Level)
+     
      PAL (Physical Activity Level) yaitu dikelompokkan berdasarkan aktivitas yaitu:
+      
       🙇‍♂️Sangat ringan (tidak aktif/fisik minimal)                        : 1.2
      
       🚶‍♂️Ringan (jalan kaki ringan, kerja ringan)                         : 1.375
