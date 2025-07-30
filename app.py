@@ -143,20 +143,23 @@ if menu == "🌎Halaman Utama":
     - 💡 Informasi tentang Total Daily Energy Expenditure (TDEE) dan gizi seimbang
 
     
-    Kalori adalah satuan energi yang terkandung dalam makanan dan minuman, yang dibutuhkan 
+       Kalori adalah satuan energi yang terkandung dalam makanan dan minuman, yang dibutuhkan 
     tubuh untuk berfungsi dengan baik dan melakukan aktivitas sehari-hari. 
     Setiap makanan dan minuman mengandung jumlah kalori yang berbeda-beda, 
     tergantung pada kandungan nutrisinya, terutama karbohidrat, protein, dan lemak. 
     Jika kita mengonsumsi berlebihan akan membuat kenaikan berat badan, mudah kelelahan, 
     timbulnya penyakit sesak, dll. Jika Kekurangan kalori dapat menurunkan berat badan maka akan
-    membuat berat badan turun. Pada Aplikasi ini yang akan dihitung adalah BMR, BMR yang dimaksud
+    membuat berat badan turun. 
+       Pada Aplikasi ini yang akan dihitung adalah BMR, BMR yang dimaksud
     adalah kebutuhan kalori harian yang dihitung berdasarkan rumus Mifflin-St Jeor (1990).
     Rumus BMR untuk laki-laki : 10 x berat badan (kg) + 6,25 x tinggi badan (cm)-5 x usia (tahun) + 5
-              untuk perempuan : 10 x berat badan (kg) + 6,25 x tinggi badan (cm)-5 x usia (tahun) - 161
+                  untuk perempuan : 10 x berat badan (kg) + 6,25 x tinggi badan (cm)-5 x usia (tahun) - 161
+              
      Total Daily Energy Expenditure (TDEE), atau total pengeluaran energi harian, adalah jumlah total 
      kalori yang dibutuhkan tubuh untuk melakukan aktivitas sehari-hari, termasuk fungsi dasar 
      tubuh dan aktivitas fisik. TDEE mencakup Basal Metabolic Rate (BMR) ditambah kalori yang dibakar 
      dari aktivitas fisik, baik olahraga maupun non-olahraga. 
+     
      Untuk mengetahui nilai TDEE rumus yang digunakan adalah = BMR X PAL (Physical Activity Level)
      PAL (Physical Activity Level) yaitu dikelompokkan berdasarkan aktivitas yaitu:
       🙇‍♂️Sangat ringan (tidak aktif/fisik minimal)                        : 1.2
@@ -164,7 +167,9 @@ if menu == "🌎Halaman Utama":
       🏊Sedang (olahraga 3-5 hari/minggu)                                : 1.55
       🏋️‍♀️Berat (aktivitas fisik berat atau olahraga intensif)             : 1.725
       💪Sangat berat (latihan keras tiap hari atau pekerjaan fisik berat): 1.9
+      
      Dari kategori tersebutlah kita dapat menghitung nilai TDEE 😊😊
+     
     Silakan gunakan menu di sebelah kiri untuk mulai 🙋‍♀️🙋‍♂️
     """)
     st.markdown('</div>', unsafe_allow_html=True)
