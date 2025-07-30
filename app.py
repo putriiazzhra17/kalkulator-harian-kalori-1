@@ -10,14 +10,16 @@ st.set_page_config(
 
 # CSS dengan gambar background di halaman utama
 st.markdown("""
-<style>
-    /* Background umum aplikasi */
-    .stApp {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: #2d3436;
-        font-size: 18px;
-        padding: 10px;
-        background: #f5f7fa;  /* fallback background */
+ <style>
+        .stApp {
+            background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),
+                        url('https://img.freepik.com/free-photo/person-paying-using-nfc-technology_23-2149893740.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white !important;
+        }
+        </style>
+    """, unsafe_allow_html=True)
     }
 
     /* Background khusus halaman utama dengan gambar */
